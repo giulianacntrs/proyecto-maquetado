@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+}
+
+:root {
+    --color-primario: #a3a3a374;
+    --color-texto-texto: #a3a3a3;
+}
+
+body,
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+h3 {
+    font-size: 0.9rem;
+}
+
+a {
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+img {
+    width: 50%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+header {
+    color: #6d6b6b;
+    text-align: center;
+    background-color: #a3a3a374;
+
+}
+
+nav {
+    position: relative;
+}
+
+nav .menu-toggle {
+    display: block;
+    border: none;
+    background: none;
+    color: #a3a3a3;
+    cursor: pointer;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.hero {
+    text-align: center;
+    color: #a3a3a3;
+}
+
+.sobremi {
+    color: #a3a3a3;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobremi .texto {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobremi .imagencontenedor {
+    padding: 1vh;
+}
+
+
+.productos-contenedores {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    place-items: center;
+}
+
+footer {
+    text-align: center;
+    color: #878383;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+    border: 2px solid grey;
+}
